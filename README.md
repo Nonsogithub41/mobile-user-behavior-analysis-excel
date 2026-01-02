@@ -1,5 +1,3 @@
-# mobile-user-behavior-analysis-excel
-Mobile user behavior analysis in Excel — KPIs, PivotTables, and dashboards to explain engagement, data usage, and battery drain patterns.
 # Mobile User Behavior Analysis (Excel)
 
 This project analyzes mobile user behavior to understand **engagement patterns** and how engagement relates to **app usage time, screen time, data usage, and battery drain**.  
@@ -25,8 +23,18 @@ What separates **highly engaged users** from **low-engagement users**, and what 
 
 ---
 
-## KPI Helper Columns (Formulas)
-**Active user (≥60 min/day)**
-```excel
-=IF([@[App Usage Time (min/day)]]>=60,"Yes","No")
+## Key KPIs
+- Total users: 700
+- Active users (≥60 min/day): 91.29%
+- Engagement distribution: High 418 | Medium 221 | Low 61
+- High engagement users consume the most time, data, and battery.
+
+## Files
+- `Mobile_User_Behavior_Analysis.xlsx` → cleaned data, helper columns, pivots, charts
+- `user_behavior_dataset.csv` → raw dataset
+- `/reports/` → written reports and reflection
+
+## Author
+Nonso Ezeoma
+
 
